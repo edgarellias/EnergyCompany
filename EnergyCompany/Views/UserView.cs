@@ -32,7 +32,6 @@ class UserView
     }
     public void UserShowOptions()
     {
-        List<Endpoint> endpointList = new List<Endpoint>();
         
         bool continueExecution = true;
         do
@@ -43,7 +42,6 @@ class UserView
                 case "1":
                     Endpoint endpointInsert = CreateEndpointForInsert();
                     InsertNewEndpoint(baseApiUrl, endpointInsert);
-                    endpointList.Add(endpointInsert);
                     break;
                 case "2":
                     SwitchStateUpdateDto switchStateUpdateDto = EndpointUpdateSwitchState();
