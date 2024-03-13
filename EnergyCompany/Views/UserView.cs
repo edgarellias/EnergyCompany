@@ -15,7 +15,7 @@ using System.Net.Http.Json;
 
 class UserView
 {
-    string baseApiUrl = "http://localhost:5120/api/Endpoint"; // Substitua pelo URL real da sua API
+    string baseApiUrl = "http://localhost:5120/api/Endpoint";
 
     private  string UserShowMenu()
     {
